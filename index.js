@@ -1,6 +1,8 @@
 import express from "express";
 import cors from "cors";
 import { authenticateAPIKey } from "./middleware/apiAuth.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 import user from "./routes/user.js";
 import category from "./routes/category.js";
@@ -25,7 +27,6 @@ app.use("/api/question", question);
 app.use("/api/all", all);
 
 app.get("/", async (req, res) => {
-  console.log(process.env.MONGO)
   res.status(200).json({ msg: "Welcome to the Express server 2!" });
 });
 
