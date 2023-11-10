@@ -1,0 +1,48 @@
+[
+  {
+    "email": "exam123",
+    "attempts": [],
+    "subscriptions": []
+  },
+
+  {
+    "name": "Mathematics",
+    "pointsPerQuestion": 2,
+    "questions": 30,
+    "time": 15,
+    "description": "A category for mathematics-related exams.",
+    "banner": "math.jpg",
+    "instructions": "Please answer the questions carefully.",
+    "sets": ["A", "B", "C"],
+    "sections": ["1_GK", "2_Maths", "3_Eng"],
+    "tags": ["algebra", "geometry", "calculus"],
+    "isPaid": true
+  },
+
+  {
+    "examId": "651b09d00a40ec498a4d1bf5-A",
+    "attemptNo": 1,
+    "timeTaken": 12,
+    "attemptedQuestions": 28,
+    "score": 50
+  },
+
+  {
+    "category": "650c5b626e9c4e05c89598e1",
+    "set": "A",
+    "section": "1_General Knowledge",
+    "question": "What is the capital of France?",
+    "options": ["London", "Berlin", "Madrid"],
+    "answer": "Paris",
+    "explanation": "Paris is the capital of France.",
+    "questionImg": "image1.jpg",
+    "optionImages": ["image1.jpg", "image2.jpg", "image1.jpg", "image2.jpg"]
+  },
+
+  {
+    "text": "tej",
+    "category": "651b09d00a40ec498a4d1bf5",
+    "set": "A",
+    "section": "1_General Knowledge"
+  }
+]

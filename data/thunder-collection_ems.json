@@ -1,0 +1,339 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ems",
+    "dateExported": "2023-11-01T13:51:36.780Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "20a95c7f-583d-44bb-9e0f-78119f3fcae0",
+            "name": "user",
+            "containerId": "",
+            "created": "2023-09-20T15:13:06.177Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "e0f85363-1232-4068-99a9-8471613f2ddb",
+            "name": "result",
+            "containerId": "",
+            "created": "2023-09-20T15:13:13.663Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "7d6344e4-ed2f-41b9-8941-1b5de449a6d0",
+            "name": "question",
+            "containerId": "",
+            "created": "2023-09-20T15:13:21.053Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "a2ae78bc-f07a-4f13-aff8-3eebeafac302",
+            "name": "cat",
+            "containerId": "",
+            "created": "2023-09-20T15:13:50.897Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "6e207e3e-eabb-41ac-8495-f5a0680c9c85",
+            "colId": "9245cb4e-b420-407c-943d-df2bd4b8fad3",
+            "containerId": "a2ae78bc-f07a-4f13-aff8-3eebeafac302",
+            "name": "post",
+            "url": "http://localhost:8000/api/category",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-09-20T15:14:10.263Z",
+            "modified": "2023-10-07T06:51:08.146Z",
+            "headers": [
+                {
+                    "name": "Admin-API-Key",
+                    "value": "your-api-key-1"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\n    \"name\": \"TCS Aptitude\",\n    \"pointsPerQuestion\": 5,\n    \"questions\": 20,\n    \"time\": 60,\n    \"description\": \"A category for mathematics-related exams.\",\n    \"banner\": \"math.jpg\",\n    \"instructions\": \"Please answer the questions carefully.\",\n    \"sets\": [\"A\", \"B\", \"C\"],\n    \"sections\": [\"1_GK\", \"2_Maths\", \"3_Eng\"],\n    \"tags\": [\"algebra\", \"geometry\", \"calculus\"]\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6b928c58-3251-4ecc-a459-374e0a73580e",
+            "colId": "9245cb4e-b420-407c-943d-df2bd4b8fad3",
+            "containerId": "7d6344e4-ed2f-41b9-8941-1b5de449a6d0",
+            "name": "post Copy Copy",
+            "url": "http://localhost:8000/api/question",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-09-20T15:16:36.169Z",
+            "modified": "2023-10-07T06:54:30.029Z",
+            "headers": [
+                {
+                    "name": "Admin-API-Key",
+                    "value": "your-api-key-1"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\n    \"category\": \"6520ffd698e68abc354021b1\",\n    \"set\": \"A\",\n    \"section\": \"1_General Knowledge\",\n    \"question\": \"What is the capital of France?\",\n    \"options\": [\"London\", \"Berlin\", \"Madrid\"],\n    \"answer\": \"Paris\",\n    \"explanation\": \"Paris is the capital of France.\",\n    \"questionImg\": \"image1.jpg\",\n    \"optionImages\": [\"image1.jpg\", \"image2.jpg\", \"image1.jpg\", \"image2.jpg\"]\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9ee1a910-e852-4949-9fe6-31daab4a741b",
+            "colId": "9245cb4e-b420-407c-943d-df2bd4b8fad3",
+            "containerId": "e0f85363-1232-4068-99a9-8471613f2ddb",
+            "name": "get",
+            "url": "http://localhost:8000/api/result",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-09-20T15:16:39.278Z",
+            "modified": "2023-10-04T16:14:53.010Z",
+            "headers": [
+                {
+                    "name": "Admin-API-Key",
+                    "value": "your-api-key-1"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\n    \"examId\": \"651b09d00a40ec498a4d1bf5-A\",\n    \"attemptNo\": 1,\n    \"timeTaken\": 12,\n    \"attemptedQuestions\": 28,\n    \"score\": 50\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3031447a-6a9c-40d7-97da-92cefe25d834",
+            "colId": "9245cb4e-b420-407c-943d-df2bd4b8fad3",
+            "containerId": "20a95c7f-583d-44bb-9e0f-78119f3fcae0",
+            "name": "get",
+            "url": "http://localhost:8000/api/user",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-09-20T15:16:31.287Z",
+            "modified": "2023-10-02T18:18:57.511Z",
+            "headers": [
+                {
+                    "name": "Admin-API-Key",
+                    "value": "your-api-key-1"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"abc@g.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f327b7ea-ae30-4b74-a5d7-0662bb3ac647",
+            "colId": "9245cb4e-b420-407c-943d-df2bd4b8fad3",
+            "containerId": "a2ae78bc-f07a-4f13-aff8-3eebeafac302",
+            "name": "put",
+            "url": "http://localhost:8000/api/category/651d90e65b7ff792a0843fd0",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-10-02T18:38:19.445Z",
+            "modified": "2023-10-20T16:26:14.659Z",
+            "headers": [
+                {
+                    "name": "Admin-API-Key",
+                    "value": "your-api-key-1"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n      \"time\": 90\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4e66b8a9-f363-44a2-bb6a-3ba80d03a157",
+            "colId": "9245cb4e-b420-407c-943d-df2bd4b8fad3",
+            "containerId": "e0f85363-1232-4068-99a9-8471613f2ddb",
+            "name": "put Copy",
+            "url": "http://localhost:8000/api/user",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-10-02T18:38:49.190Z",
+            "modified": "2023-10-02T18:38:49.190Z",
+            "headers": [
+                {
+                    "name": "Admin-API-Key",
+                    "value": "your-api-key-1"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7dc15190-9533-4f51-8a0d-c759d302a9d5",
+            "colId": "9245cb4e-b420-407c-943d-df2bd4b8fad3",
+            "containerId": "7d6344e4-ed2f-41b9-8941-1b5de449a6d0",
+            "name": "getByCatidSet",
+            "url": "http://localhost:8000/api/question/651d90e65b7ff792a0843fd0/A",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-10-02T18:39:05.324Z",
+            "modified": "2023-10-04T16:25:09.413Z",
+            "headers": [
+                {
+                    "name": "Admin-API-Key",
+                    "value": "your-api-key-1"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e41be268-3736-476d-afd1-600c91442d04",
+            "colId": "9245cb4e-b420-407c-943d-df2bd4b8fad3",
+            "containerId": "20a95c7f-583d-44bb-9e0f-78119f3fcae0",
+            "name": "put",
+            "url": "http://localhost:8000/api/user",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-10-02T18:30:38.783Z",
+            "modified": "2023-10-02T18:32:12.230Z",
+            "headers": [
+                {
+                    "name": "Admin-API-Key",
+                    "value": "your-api-key-1"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "86a8bebe-eac4-42a6-9775-2bdd3c8811dd",
+            "colId": "9245cb4e-b420-407c-943d-df2bd4b8fad3",
+            "containerId": "a2ae78bc-f07a-4f13-aff8-3eebeafac302",
+            "name": "delete",
+            "url": "http://localhost:8000/api/category/651b14e12dee1b6056f732ba",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-10-02T18:38:14.851Z",
+            "modified": "2023-10-04T16:13:01.172Z",
+            "headers": [
+                {
+                    "name": "Admin-API-Key",
+                    "value": "your-api-key-1"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b0b678d2-e0a3-4b13-b70b-0db1918a3f1a",
+            "colId": "9245cb4e-b420-407c-943d-df2bd4b8fad3",
+            "containerId": "e0f85363-1232-4068-99a9-8471613f2ddb",
+            "name": "put Copy",
+            "url": "http://localhost:8000/api/user",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-10-02T18:38:52.005Z",
+            "modified": "2023-10-02T18:38:52.005Z",
+            "headers": [
+                {
+                    "name": "Admin-API-Key",
+                    "value": "your-api-key-1"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c30cf708-031b-4fa8-b495-41598a62712f",
+            "colId": "9245cb4e-b420-407c-943d-df2bd4b8fad3",
+            "containerId": "7d6344e4-ed2f-41b9-8941-1b5de449a6d0",
+            "name": "put Copy",
+            "url": "http://localhost:8000/api/user",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-10-02T18:39:02.894Z",
+            "modified": "2023-10-02T18:39:02.894Z",
+            "headers": [
+                {
+                    "name": "Admin-API-Key",
+                    "value": "your-api-key-1"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c792f274-9b66-4eeb-a54f-79280ed24af0",
+            "colId": "9245cb4e-b420-407c-943d-df2bd4b8fad3",
+            "containerId": "20a95c7f-583d-44bb-9e0f-78119f3fcae0",
+            "name": "delete",
+            "url": "http://localhost:8000/api/user",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-10-02T18:30:56.406Z",
+            "modified": "2023-10-02T18:32:05.339Z",
+            "headers": [
+                {
+                    "name": "Admin-API-Key",
+                    "value": "your-api-key-1"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b54e24e5-ea4e-4d69-9e00-ec6891f390be",
+            "colId": "9245cb4e-b420-407c-943d-df2bd4b8fad3",
+            "containerId": "7d6344e4-ed2f-41b9-8941-1b5de449a6d0",
+            "name": "bulk",
+            "url": "http://localhost:8000/api/question/bulk",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-10-02T18:56:21.243Z",
+            "modified": "2023-10-04T16:23:52.526Z",
+            "headers": [
+                {
+                    "name": "Admin-API-Key",
+                    "value": "your-api-key-1"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\n    \"text\": \"#1. Consider two tumblers, the first containing one litre of water. Suppose you take one spoon of water out of the first tumbler and pour it into the second tumbler and after which you take one spoon of the mixture from the second tumbler and pour it back into the first tumbler. Which one of the following statements holds true?\\r\\na. There is less coffee in the first tumbler than water in the second tumbler.\\r\\nb. There is more coffee in the first tumbler than water in the second tumbler\\r\\nc. There is as much coffee in the first tumbler as there is water in the second tumbler\\r\\nd. None of the statements holds true.\\r\\n\\r\\nAnswer: C\\r\\n\\r\\nExplanation: \\r\\n  Suppose spoon can contain 5 drops. Tumbler can contain 100 drops.\\r\\n    1 --> 2 (spoon contains 5w drops)\\r\\n            tumb 1: 95w\\r\\n            tumb 2: 100c + 5w\\r\\n    2 --> 1 (spoon contains 4c+1w drops)\\r\\n            tumb 1 : 96w\\r\\n            tumb 2 : 96c .\\r\\nThere is as much coffee in the first tumbler as there is water in the second tumbler.\\r\\n\\r\\n#2. A lady has fine gloves and hats of different colours in her closet 18 blue, 32 red and 25 yellow. The lights are out and it is totally dark. In spite of the darkness, she can make out the difference between a hat and a glove. She takes an item out of the closet only if she is sure that it is a glove. How many gloves must she take out to make sure that she has a pair of each colour?\\r\\na. 6\\t\\tb. 8\\t\\tc. 60\\t\\td. 59\\r\\n\\r\\nAnswer: D\\r\\n\\r\\nExplanation: \\r\\n It is not given that how many of these items are gloves and how many are hats, if we consider that all the items are gloves then according to my opinion 32+25+2 = 59 gloves, she must take out to make sure she has a pair of each colour. \\r\\n\\r\\n#3. It was the semester exam day, Vidhya caught the college bus. She enjoyed travelling by bus. Moving at 6 mph, the bus took Vidhya to college at the right time. She finished her exam and had a chit chat with her friends and suddenly she realized that it was 6 pm and she had missed the college bus. She decided to walk back home at 4 mph. What is her average speed for the day?\\r\\na. 4 mph        b. 5 mph        c. 2.4 mph        d. 4.8 mph\\r\\n\\r\\nAnswer: D\\r\\n\\r\\nExplanation: \\r\\n Since distance is constant, to calculate the average speed =2xy\\/x+y. where x and y are speed given.\\r\\nSo 2*6*4\\/(6+4)=48\\/10=4.8mph.\\r\\n\\r\\n#4. Spores of a fungus, called late blight, grow and spread infection rapidly. These pathogens were responsible for the Irish potato famine of the mid-19th century. These seem to have attacked the tomato crops in England this year. The tomato crops have reduced and the price of the crop has risen up. The price has already gone up to $45 a box from $27 a box a month ago. How much more would a vegetable vendor need to pay to buy 27 boxes this month over what he would have paid last month?\\r\\na. $ 27\\t            b. $ 18     \\t c. $ 45\\t           d. $ 486\\r\\n\\r\\nAnswer: D\\r\\n\\r\\nExplanation: \\r\\n Since the price of a box increased from $27 to $45.there will be loss of 18 for one box. so for 27 boxes it equals 27*18=486. \\r\\n\\r\\n#5. A car manufacturer produces only red and blue models which come out of the final testing area completely at random. What are the odds that 5 consecutive cars of the same colour will come through the test area at a time?\\r\\na. 1 in 16\\tb. 1 in 125\\tc. 1 in 32         d. 1 in 25\\r\\n\\r\\nAnswer: A\\r\\n\\r\\nExplanation: \\r\\n Total 5 cars each can have any of the 2 colours, so the total possibilities are 2*2*2*2*2= 32.\\r\\nThe Favourable outcome is the same colour for all the 5 cars = 2 (all 5 are red or all 5 are blue.) \\r\\nHence the probability = 2\\/32 = 1\\/16.\\r\\nOR\\r\\n2*(1\\/2)^5 =1 in 16\\r\\nAs there are 5 Cars and 2 types.\\r\\n\\r\\n#6. Susan made a block with small cubes of 8 cubic cm volume. To make the block she used 3 small cubes long, 9 small cubes wide and 5 small cubes deep. She realizes that she has used more small cubes than she really needed. She realized that she could have glued a fewer number of cubes together to lock like a block with same dimensions, if it were made hollow. What is the minimum number of cubes that she needs to make the block?\\r\\na. 114\\t\\tb. 135\\t\\tc. 21\\t\\td. 71\\r\\n\\r\\nAnswer: A\\r\\n\\r\\nExplanation: \\r\\n The total volume (in terms of number of cubes) of the solid = 3*9*5 = 135\\r\\nThe total volume (in terms of number of cubes) of the hollow = (3-2)*(9-2)*(5-2) \\r\\n= 21\\r\\nSo number of cubes required = 135-21 = 114 \\r\\n\\r\\n#7. A seamstress buys a certain amount of Gingham cloth which comes in rolls that are exactly 56 inches wide. She has also bought a certain length of Seek sucker cloth and 35 inches wide. The seamstress first focuses on the Gingham roll ad discovers that she has 116 yards of Gingham and she wants to divide the gingham into 116 lengths of 1 yard each. She wants to have twice as many pieces of seek sucker as she does of the Gingham. It takes 4 seconds to cut each length of Gingham. Working non-stop, how long (in seconds) will it take her to cut all 116 pieces?\\r\\na.464\\t\\tb.460\\t\\tc.463\\t\\td.465\\r\\n\\r\\nAnswer: B\\r\\n\\r\\nExplanation: \\r\\n To make 116 pieces she needs 115 cuts. Because for n cuts we will have (n+1) pieces. For cutting 1 piece it takes 4 sec. it will be 115*4=460.\\r\\n\\r\\n#8.  A triangle is made from a rope. The sides of the triangle are 25 cm, 11 cm and 31 cm. What will be the area of the square made from the same rope?\\r\\na. 280.8565\\t\\t\\tb. 280.5625\\r\\nc. 281.5646\\t\\t\\td. 282.5624\\r\\n\\r\\nAnswer: B\\r\\n\\r\\nExplanation: \\r\\nLength of the rope=25+11+31=67cm,\\r\\nSide of the square=67\\/4=16.75cm,\\r\\nArea of the square=(side of the square)^2=16.75^2 = 280.5625 cm^2\\r\\n\\r\\n#9. Mr. Alex is the father of children Jane, Joe, and Jill. He goes to a nearby park twice a week. He loves his children very much. On a certain day, on his way to the park he finds fruit vendors selling different fruits. Watermelon is one penny each, dates at 2 for a penny and plums at 3 for a penny. Mr. Alex spent 7 pennies and got the same amount of each type of fruit for each of his three children. What did each child get?\\r\\na. 1 Watermelon, 2 Dates, 1 plum\\r\\nb. 1 Watermelon, 1 Date, 1 plum\\r\\nc. 1 Watermelon, 3 Dates, 2 plums\\r\\nd. 1 Watermelon, 2 Dates, 2 plums\\r\\n\\r\\nAnswer: A\\r\\n\\r\\nExplanation: \\r\\n You can check through the option and find it. if we take option 1.it is given that 1 watermelon,2 dates,1 plum for each child. So, he should have bought 3 watermelon, 6 dates, and 3 plums for all the three. But it is given that he spends only 7 pennies. When you check the cost of all the fruits .the only option satisfies the given condition is 1 Watermelon, 2 Dates and 1 Plum.\\r\\n\\r\\n#10. An athlete decides to run the same distance in 1\\/4th less time that she usually took. By how much percent will she have to increase her average speed?\\r\\na. 0.25\\t       b. 0.5\\t  c. 0.3333\\t    d. 0.2\\r\\n\\r\\nAnswer: C\\r\\n\\r\\nExplanation: \\r\\n Let original speed be s1 and time be t1\\r\\nThen s1=d\\/t1 ---eqn 1 and according to ques new speed be s2 and time given is 3t1\\/4 therefore s2=d\\/(3t1\\/4) -----eqn 2 dividing eqn 2 by eqn 1\\r\\ns2=4s1\\/3 increased speed = 4s1\\/3-s1\\r\\n=1s1\\/3 percent increase=[(1s1\\/3)\\/s1]*100 =33.33%=33.33\\/100=0.3333..\\r\\n\\r\\n#11. A racehorse starts chasing a wild pony 3 hours after the pony bolts the stable. The pony runs through the entire country of Alb. Texas jumping 3 streams and crossing four 10 meter roads. The racehorse finally catches up with the pony after four hours by the time the sun had set and the moon was up in the sky for 4 hours. If the average speed of the racehorse is 73kmph then average speed of the wild pony is?\\r\\na. 54.75 kmph\\t\\t\\tb. 42.71 kmph\\r\\nc. 31.29 kmph\\t\\t\\td. 41.71 kmph\\r\\n\\r\\nAnswer: D\\r\\n\\r\\nExplanation: \\r\\n Distance covered by horse =73*4=292\\r\\nTotal time taken by =3hr+4hr =7hr\\r\\nSpeed of pony =292\\/7 =41.71\\r\\n\\r\\n#12. On planet Korba, a solar blast has melted the ice caps on its equator. 9 years after the ice melts, tiny planetoids called echina start growing on the rocks. Echina grows in the form of circle, and the relationship between the diameter of this circle and the age of echina is given by the formula, d = 4*\\u221A (t-9) for t \\u2265 9, where d represents the diameter in mm and t, the number of years since the solar blast. Anubhav recorded the radius of some echina at a particular spot as 7mm. How many years back did the solar blast occur?\\r\\na. 17\\t    b. 21.25\\t  c. 12.25\\td. 12.06\\r\\n\\r\\nAnswer: B\\r\\n\\r\\n Explanation:\\r\\nRadius=7mm.\\r\\nSo diameter= 14mm.\\r\\nPutting D=14 in equation we can easily calculate\\r\\nt=21.25.\\r\\n\\r\\n#13. How many 13 digit numbers are possible by using the digits 1, 2, 3, 4, 5 which are divisible by 4 if repetition of digits is allowed?\\r\\na. 4*511            b. 512            c. 5*121            d. 513\\r\\n\\r\\nAnswer: B\\r\\n\\r\\nExplanation: \\r\\n To be divisible by 4, last two digits must be divisible by 4. Which are 12, 24, 32, 44, 52 .so 5 combinations are possible for last two digits also 5 combinations each for remaining 11 places. so the answer is 5^12.\\r\\n\\r\\n#14. In a family there are some boys and girls. All boys told that they are having equal number of brothers and sisters and girls told that they are having twice the number of brothers than sisters. How many boys and girls are present in a family?\\r\\na. 5 boys & 3 girls\\t\\tb. 7 boys & 2 girls\\r\\nc. 4 boys & 3 girls\\t\\td. 6 boys & 2 girls\\r\\n\\r\\nAnswer: C\\r\\n\\r\\nExplanation: \\r\\n Let number of boys =b\\r\\nAnd number of girls=g;\\r\\nSince each brother having equal no of brothers and sisters\\r\\nSo b-1=g\\r\\nGirls told that they are having twice the no. of brothers than sisters\\r\\nb=2(g-1)\\r\\nTherefore 1+g=2g-2\\r\\ng=3 and b=1+3=4\\r\\nSo answer is 4boys and 3 girls \\r\\n\\r\\n#15. Mr Behera wants to build a house for his wife. In his dream house there are 5 rooms each having equal area. The length of each room is 4 m, breadth is 5 m and the height is 2m. For every single unit of area, he requires 17 bricks, how many bricks are required to make the floor of a particular room?\\r\\na. 340\\t\\tb. 420\\t\\tc. 280\\t\\td. 400\\r\\n\\r\\nAnswer: A\\r\\n\\r\\nExplanation: \\r\\n Area of floor 5*4(l*b)=20 sq.m\\r\\n1 sq.m =17 bricks\\r\\nSo 20 sq.m=20*17=340 bricks\\r\\n\\r\\nADVANCE QUANTITATIVE APTITUDE\\r\\n#16. There are N numbers of gold biscuits in the house, in which four people are lived. If the first men woke up and divided the biscuits into 5 equal piles and found one extra biscuit. He took one of those piles along with the extra biscuit and hid them. He then gathered the 4 remaining piles into a big pile, woke up the second person and went to sleep. Each of the other 3 persons did the same one by one i.e. divided the big pile into 5 equal piles and found one extra biscuit. Each hid one of the piles along with the extra biscuit and gathered the remaining 4 piles into a big pile. If N>1000, what could be the least value of N?\\r\\na. 1249\\t            b. 1023               c. 1202            d. 1246\\r\\n\\r\\nAnswer: D\\r\\n\\r\\nExplanation: \\r\\n Suppose N=5x+1\\r\\nA took (x+1) biscuit.\\r\\nNow 4x is of the form 5y+1 then x must be in the form 5z+4\\r\\n\\u21D24(5z+4)=5y+1\\r\\n\\u21D2y=4z+3 and x=5z+4\\r\\nThe ratio of number of biscuits that A and B took is \\r\\n[(5z+4)+1]:[(4z+3)+1]=5:4\\r\\nSo, we can say that any two successive persons A, B, C and D take coins in the ratio of 5:4\\r\\nLet the number of biscuits that A, B, C and D took be a, b, c and d respectively.\\r\\na:b=b:c=c:d=5:4\\r\\na:b:c:d=125:100:80:64\\r\\n\\u21D2a=125k\\r\\n\\u21D2x=125k\\u22121 and N=5x+1=625k\\u22124\\r\\nAs, N>1000, the least value of N is when k=2\\r\\n\\u21D2N= 1246.\\r\\n \\r\\n#17. ABCDEF is a regular hexagon inscribed inside a circle. If the shortest diagonal of the hexagon is of length 3 units, what is the area of the shaded region?\\r\\n\\r\\na. 1\\/6(3\\u03A0 \\u2212 (9\\u221A3)\\/2)\\tb. 1\\/6(2\\u03A0 \\u2212 (6\\u221A3)\\/2)\\r\\nc. 1\\/6(3\\u03A0 \\u2212 (8\\u221A3)\\/2)\\td. 1\\/6(6\\u03A0 \\u2212 (15\\u221A3)\\/2)\\r\\n\\r\\nAnswer: A\\r\\n\\r\\nExplanation: \\r\\n Let side of regular hexagon be a. \\r\\nThe shortest diagonal will be of length a\\u221A3. Why? \\r\\nA regular hexagon is just 6 equilateral triangles around a point. The shortest diagonal is FD. \\r\\nFD = FP + PD\\r\\n\\u25B3FOE is equilateral and so is \\u25B3 EOD. \\r\\nDiagonal FD can be broken as FP + PD, both of which are altitude of equilateral is.\\r\\nFP = (\\u221A3a)\\/2\\r\\nFD = \\u221A3 a = shortest diagonal\\r\\nThe question tells us that the shortest diagonal measures 3 cm. \\r\\n\\u221A3 a = 3 => a = \\u221A3\\r\\nRadius of circle = \\u221A3\\r\\nArea of hexagon = (\\u221A3 a2)\\/4 x 6\\r\\nArea of circle \\u2013 area of hexagon = \\u03C0 (\\u221A3)2 \\u2212 \\u221A3\\/4 x (\\u221A3)2 x 6\\r\\n= 3\\u03C0 \\u2212 (9\\u221A3)\\/2\\r\\nArea of shaded region = 1\\/(6 ) (area(circle) \\u2013 area(hexagon))\\r\\n= 1\\/(6 )(3\\u03C0 \\u2212 (9\\u221A3)\\/2)\\r\\n\\r\\n\\r\\n#18. Abhishek starts to paint a fence on one day. On the second day, two more friends of Abhishek join him. On the third day 3 more friends of him join him and so on. If the fence is completely painted this way in exactly 20 days, then find the number of days in which 10 girls painting together can paint the fence completely, given that every girl can paint twice as fast as Abhishek and his friends (Boys)? (Assume that the friends of Abhishek are all boys).\\r\\na. 20\\t\\tb. 40\\t\\tc. 45\\t\\td. 77\\r\\n\\r\\nAnswer: D\\r\\n\\r\\nExplanation: \\r\\n Number of men working on first day = 1\\r\\nNumber of men working on second day = 3\\r\\nNumber of men working on second day = 6 and so on..\\r\\nTotal number of boys till the end of the work = [n(n + 1) (n + 2)] \\/ 6\\r\\n= [20 x 21 x 22] \\/ 6 = 1540\\r\\nGiven that every girl paints twice as fast as Abhishek\\u2019s friends.\\r\\nHence, 20 girls work is being done.\\r\\nThus, the number of days taken to paint the fence = 1540\\/20 = 77.\\r\\n\\r\\n#19. Six friends decide to share a big cake. Since all of them like the cake, they begin quarrelling as to who gets to first cut and has a piece of the cake. One friend suggests that they blindfold a friend and then choose from a well shuffled set of cards numbered from one to six. You check and find that this method works as it should be simulating a fair throw of a die. You check by performing multiple simultaneous trials of picking the cards blindfolding and throwing a die. You note that the number shown by the method of picking up a card and throwing a real world die, sums up to a number between 2 and 12. Which total would be likely to appear more often 8, 9 or 10?\\r\\na. 8\\tb. 9\\tc. 10\\td. All are equally likely.\\r\\n\\r\\nAnswer: A\\r\\n\\r\\nExplanation: \\r\\n The best solution will be 7, and there will be total 6 cases for this choice (1,6), (2,5), (3,4), (4,3), (5,2), (6,1)but this one is not in the choices so out of the 4 choices given 8 will be the best choice. For this choice there are 5 methods (2,6), (3,5), (4,4), (5,3), (6,2)\\r\\nSimilarly for 9 there are 4 choices (3,6), (4,5), (5,4), (6,3) for 10 there are 3 choices (4,6), (5,5), (4,6)\\r\\nAnswer is 8.\\r\\n\\r\\n#20. A research lab in Chennai requires 100 mice and 75 sterilized cages for a certain set of laboratory experiments. To identify the mice, the lab has prepared labels with numbers 1 to 100, by combining tags numbered 0 to 9. The SPCA requires that the tags be made of toxin-free material and that the temperature of the cages be maintained at 27 degree Celsius. Also, not more than 2 mice can be caged together and each cage must be at least 2 sq.ft in area. The 5 experiments to be conducted by lab are to be thoroughly documented and performed only after around of approval by authorities. The approval procedure takes around 48 hours. How many times is, the tag numbered \\u20194\\u2019 used by the lab in numbering these mice?\\r\\na. 9\\t\\tb. 19\\t\\tc. 20 \\t\\td. 21\\r\\n\\r\\nAnswer: C\\r\\n\\r\\nExplanation: \\r\\n Just count the number of 4's from 1 to 100.it will give you 20.\\r\\n\",\n    \"category\": \"651d90e65b7ff792a0843fd0\",\n    \"set\": \"A\",\n    \"section\": \"2_Maths\"\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "716aec72-e6d7-4514-aaea-fe691b5bdc86",
+            "colId": "9245cb4e-b420-407c-943d-df2bd4b8fad3",
+            "containerId": "",
+            "name": "test",
+            "url": "http://localhost:8000/api/string",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-10-02T18:57:53.852Z",
+            "modified": "2023-10-02T19:08:55.792Z",
+            "headers": [
+                {
+                    "name": "Admin-API-Key",
+                    "value": "your-api-key-1"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\n    \"text\": \"1. Consider two tumblers, the first containing one litre of water. Suppose you take one spoon of water out of the first tumbler and pour it into the second tumbler and after which you take one spoon of the mixture from the second tumbler and pour it back into the first tumbler. Which one of the following statements holds true?\\r\\na. There is less coffee in the first tumbler than water in the second tumbler.\\r\\nb. There is more coffee in the first tumbler than water in the second tumbler\\r\\nc. There is as much coffee in the first tumbler as there is water in the second tumbler\\r\\nd. None of the statements holds true.\\r\\n\\r\\nAnswer: C\\r\\n\\r\\nExplanation: \\r\\n  Suppose spoon can contain 5 drops. Tumbler can contain 100 drops.\\r\\n    1 --> 2 (spoon contains 5w drops)\\r\\n            tumb 1: 95w\\r\\n            tumb 2: 100c + 5w\\r\\n    2 --> 1 (spoon contains 4c+1w drops)\\r\\n            tumb 1 : 96w\\r\\n            tumb 2 : 96c .\\r\\nThere is as much coffee in the first tumbler as there is water in the second tumbler.\\r\\n\\r\\n2. A lady has fine gloves and hats of different colours in her closet 18 blue, 32 red and 25 yellow. The lights are out and it is totally dark. In spite of the darkness, she can make out the difference between a hat and a glove. She takes an item out of the closet only if she is sure that it is a glove. How many gloves must she take out to make sure that she has a pair of each colour?\\r\\na. 6\\t\\tb. 8\\t\\tc. 60\\t\\td. 59\\r\\n\\r\\nAnswer: D\\r\\n\\r\\nExplanation: \\r\\n It is not given that how many of these items are gloves and how many are hats, if we consider that all the items are gloves then according to my opinion 32+25+2 = 59 gloves, she must take out to make sure she has a pair of each colour. \\r\\n\\r\\n3. It was the semester exam day, Vidhya caught the college bus. She enjoyed travelling by bus. Moving at 6 mph, the bus took Vidhya to college at the right time. She finished her exam and had a chit chat with her friends and suddenly she realized that it was 6 pm and she had missed the college bus. She decided to walk back home at 4 mph. What is her average speed for the day?\\r\\na. 4 mph        b. 5 mph        c. 2.4 mph        d. 4.8 mph\\r\\n\\r\\nAnswer: D\\r\\n\\r\\nExplanation: \\r\\n Since distance is constant, to calculate the average speed =2xy\\/x+y. where x and y are speed given.\\r\\nSo 2*6*4\\/(6+4)=48\\/10=4.8mph.\\r\\n\\r\\n4. Spores of a fungus, called late blight, grow and spread infection rapidly. These pathogens were responsible for the Irish potato famine of the mid-19th century. These seem to have attacked the tomato crops in England this year. The tomato crops have reduced and the price of the crop has risen up. The price has already gone up to $45 a box from $27 a box a month ago. How much more would a vegetable vendor need to pay to buy 27 boxes this month over what he would have paid last month?\\r\\na. $ 27\\t            b. $ 18     \\t c. $ 45\\t           d. $ 486\\r\\n\\r\\nAnswer: D\\r\\n\\r\\nExplanation: \\r\\n Since the price of a box increased from $27 to $45.there will be loss of 18 for one box. so for 27 boxes it equals 27*18=486. \\r\\n\\r\\n5. A car manufacturer produces only red and blue models which come out of the final testing area completely at random. What are the odds that 5 consecutive cars of the same colour will come through the test area at a time?\\r\\na. 1 in 16\\tb. 1 in 125\\tc. 1 in 32         d. 1 in 25\\r\\n\\r\\nAnswer: A\\r\\n\\r\\nExplanation: \\r\\n Total 5 cars each can have any of the 2 colours, so the total possibilities are 2*2*2*2*2= 32.\\r\\nThe Favourable outcome is the same colour for all the 5 cars = 2 (all 5 are red or all 5 are blue.) \\r\\nHence the probability = 2\\/32 = 1\\/16.\\r\\nOR\\r\\n2*(1\\/2)^5 =1 in 16\\r\\nAs there are 5 Cars and 2 types.\\r\\n\\r\\n6. Susan made a block with small cubes of 8 cubic cm volume. To make the block she used 3 small cubes long, 9 small cubes wide and 5 small cubes deep. She realizes that she has used more small cubes than she really needed. She realized that she could have glued a fewer number of cubes together to lock like a block with same dimensions, if it were made hollow. What is the minimum number of cubes that she needs to make the block?\\r\\na. 114\\t\\tb. 135\\t\\tc. 21\\t\\td. 71\\r\\n\\r\\nAnswer: A\\r\\n\\r\\nExplanation: \\r\\n The total volume (in terms of number of cubes) of the solid = 3*9*5 = 135\\r\\nThe total volume (in terms of number of cubes) of the hollow = (3-2)*(9-2)*(5-2) \\r\\n= 21\\r\\nSo number of cubes required = 135-21 = 114 \\r\\n\\r\\n7. A seamstress buys a certain amount of Gingham cloth which comes in rolls that are exactly 56 inches wide. She has also bought a certain length of Seek sucker cloth and 35 inches wide. The seamstress first focuses on the Gingham roll ad discovers that she has 116 yards of Gingham and she wants to divide the gingham into 116 lengths of 1 yard each. She wants to have twice as many pieces of seek sucker as she does of the Gingham. It takes 4 seconds to cut each length of Gingham. Working non-stop, how long (in seconds) will it take her to cut all 116 pieces?\\r\\na.464\\t\\tb.460\\t\\tc.463\\t\\td.465\\r\\n\\r\\nAnswer: B\\r\\n\\r\\nExplanation: \\r\\n To make 116 pieces she needs 115 cuts. Because for n cuts we will have (n+1) pieces. For cutting 1 piece it takes 4 sec. it will be 115*4=460.\\r\\n\\r\\n8.  A triangle is made from a rope. The sides of the triangle are 25 cm, 11 cm and 31 cm. What will be the area of the square made from the same rope?\\r\\na. 280.8565\\t\\t\\tb. 280.5625\\r\\nc. 281.5646\\t\\t\\td. 282.5624\\r\\n\\r\\nAnswer: B\\r\\n\\r\\nExplanation: \\r\\nLength of the rope=25+11+31=67cm,\\r\\nSide of the square=67\\/4=16.75cm,\\r\\nArea of the square=(side of the square)^2=16.75^2 = 280.5625 cm^2\\r\\n\\r\\n9. Mr. Alex is the father of children Jane, Joe, and Jill. He goes to a nearby park twice a week. He loves his children very much. On a certain day, on his way to the park he finds fruit vendors selling different fruits. Watermelon is one penny each, dates at 2 for a penny and plums at 3 for a penny. Mr. Alex spent 7 pennies and got the same amount of each type of fruit for each of his three children. What did each child get?\\r\\na. 1 Watermelon, 2 Dates, 1 plum\\r\\nb. 1 Watermelon, 1 Date, 1 plum\\r\\nc. 1 Watermelon, 3 Dates, 2 plums\\r\\nd. 1 Watermelon, 2 Dates, 2 plums\\r\\n\\r\\nAnswer: A\\r\\n\\r\\nExplanation: \\r\\n You can check through the option and find it. if we take option 1.it is given that 1 watermelon,2 dates,1 plum for each child. So, he should have bought 3 watermelon, 6 dates, and 3 plums for all the three. But it is given that he spends only 7 pennies. When you check the cost of all the fruits .the only option satisfies the given condition is 1 Watermelon, 2 Dates and 1 Plum.\\r\\n\\r\\n10. An athlete decides to run the same distance in 1\\/4th less time that she usually took. By how much percent will she have to increase her average speed?\\r\\na. 0.25\\t       b. 0.5\\t  c. 0.3333\\t    d. 0.2\\r\\n\\r\\nAnswer: C\\r\\n\\r\\nExplanation: \\r\\n Let original speed be s1 and time be t1\\r\\nThen s1=d\\/t1 ---eqn 1 and according to ques new speed be s2 and time given is 3t1\\/4 therefore s2=d\\/(3t1\\/4) -----eqn 2 dividing eqn 2 by eqn 1\\r\\ns2=4s1\\/3 increased speed = 4s1\\/3-s1\\r\\n=1s1\\/3 percent increase=[(1s1\\/3)\\/s1]*100 =33.33%=33.33\\/100=0.3333..\\r\\n\\r\\n11. A racehorse starts chasing a wild pony 3 hours after the pony bolts the stable. The pony runs through the entire country of Alb. Texas jumping 3 streams and crossing four 10 meter roads. The racehorse finally catches up with the pony after four hours by the time the sun had set and the moon was up in the sky for 4 hours. If the average speed of the racehorse is 73kmph then average speed of the wild pony is?\\r\\na. 54.75 kmph\\t\\t\\tb. 42.71 kmph\\r\\nc. 31.29 kmph\\t\\t\\td. 41.71 kmph\\r\\n\\r\\nAnswer: D\\r\\n\\r\\nExplanation: \\r\\n Distance covered by horse =73*4=292\\r\\nTotal time taken by =3hr+4hr =7hr\\r\\nSpeed of pony =292\\/7 =41.71\\r\\n\\r\\n12. On planet Korba, a solar blast has melted the ice caps on its equator. 9 years after the ice melts, tiny planetoids called echina start growing on the rocks. Echina grows in the form of circle, and the relationship between the diameter of this circle and the age of echina is given by the formula, d = 4*\\u221A (t-9) for t \\u2265 9, where d represents the diameter in mm and t, the number of years since the solar blast. Anubhav recorded the radius of some echina at a particular spot as 7mm. How many years back did the solar blast occur?\\r\\na. 17\\t    b. 21.25\\t  c. 12.25\\td. 12.06\\r\\n\\r\\nAnswer: B\\r\\n\\r\\n Explanation:\\r\\nRadius=7mm.\\r\\nSo diameter= 14mm.\\r\\nPutting D=14 in equation we can easily calculate\\r\\nt=21.25.\\r\\n\\r\\n13. How many 13 digit numbers are possible by using the digits 1, 2, 3, 4, 5 which are divisible by 4 if repetition of digits is allowed?\\r\\na. 4*511            b. 512            c. 5*121            d. 513\\r\\n\\r\\nAnswer: B\\r\\n\\r\\nExplanation: \\r\\n To be divisible by 4, last two digits must be divisible by 4. Which are 12, 24, 32, 44, 52 .so 5 combinations are possible for last two digits also 5 combinations each for remaining 11 places. so the answer is 5^12.\\r\\n\\r\\n14. In a family there are some boys and girls. All boys told that they are having equal number of brothers and sisters and girls told that they are having twice the number of brothers than sisters. How many boys and girls are present in a family?\\r\\na. 5 boys & 3 girls\\t\\tb. 7 boys & 2 girls\\r\\nc. 4 boys & 3 girls\\t\\td. 6 boys & 2 girls\\r\\n\\r\\nAnswer: C\\r\\n\\r\\nExplanation: \\r\\n Let number of boys =b\\r\\nAnd number of girls=g;\\r\\nSince each brother having equal no of brothers and sisters\\r\\nSo b-1=g\\r\\nGirls told that they are having twice the no. of brothers than sisters\\r\\nb=2(g-1)\\r\\nTherefore 1+g=2g-2\\r\\ng=3 and b=1+3=4\\r\\nSo answer is 4boys and 3 girls \\r\\n\\r\\n15. Mr Behera wants to build a house for his wife. In his dream house there are 5 rooms each having equal area. The length of each room is 4 m, breadth is 5 m and the height is 2m. For every single unit of area, he requires 17 bricks, how many bricks are required to make the floor of a particular room?\\r\\na. 340\\t\\tb. 420\\t\\tc. 280\\t\\td. 400\\r\\n\\r\\nAnswer: A\\r\\n\\r\\nExplanation: \\r\\n Area of floor 5*4(l*b)=20 sq.m\\r\\n1 sq.m =17 bricks\\r\\nSo 20 sq.m=20*17=340 bricks\\r\\n\\r\\nADVANCE QUANTITATIVE APTITUDE\\r\\n16. There are N numbers of gold biscuits in the house, in which four people are lived. If the first men woke up and divided the biscuits into 5 equal piles and found one extra biscuit. He took one of those piles along with the extra biscuit and hid them. He then gathered the 4 remaining piles into a big pile, woke up the second person and went to sleep. Each of the other 3 persons did the same one by one i.e. divided the big pile into 5 equal piles and found one extra biscuit. Each hid one of the piles along with the extra biscuit and gathered the remaining 4 piles into a big pile. If N>1000, what could be the least value of N?\\r\\na. 1249\\t            b. 1023               c. 1202            d. 1246\\r\\n\\r\\nAnswer: D\\r\\n\\r\\nExplanation: \\r\\n Suppose N=5x+1\\r\\nA took (x+1) biscuit.\\r\\nNow 4x is of the form 5y+1 then x must be in the form 5z+4\\r\\n\\u21D24(5z+4)=5y+1\\r\\n\\u21D2y=4z+3 and x=5z+4\\r\\nThe ratio of number of biscuits that A and B took is \\r\\n[(5z+4)+1]:[(4z+3)+1]=5:4\\r\\nSo, we can say that any two successive persons A, B, C and D take coins in the ratio of 5:4\\r\\nLet the number of biscuits that A, B, C and D took be a, b, c and d respectively.\\r\\na:b=b:c=c:d=5:4\\r\\na:b:c:d=125:100:80:64\\r\\n\\u21D2a=125k\\r\\n\\u21D2x=125k\\u22121 and N=5x+1=625k\\u22124\\r\\nAs, N>1000, the least value of N is when k=2\\r\\n\\u21D2N= 1246.\\r\\n \\r\\n17. ABCDEF is a regular hexagon inscribed inside a circle. If the shortest diagonal of the hexagon is of length 3 units, what is the area of the shaded region?\\r\\n\\r\\na. 1\\/6(3\\u03A0 \\u2212 (9\\u221A3)\\/2)\\tb. 1\\/6(2\\u03A0 \\u2212 (6\\u221A3)\\/2)\\r\\nc. 1\\/6(3\\u03A0 \\u2212 (8\\u221A3)\\/2)\\td. 1\\/6(6\\u03A0 \\u2212 (15\\u221A3)\\/2)\\r\\n\\r\\nAnswer: A\\r\\n\\r\\nExplanation: \\r\\n Let side of regular hexagon be a. \\r\\nThe shortest diagonal will be of length a\\u221A3. Why? \\r\\nA regular hexagon is just 6 equilateral triangles around a point. The shortest diagonal is FD. \\r\\nFD = FP + PD\\r\\n\\u25B3FOE is equilateral and so is \\u25B3 EOD. \\r\\nDiagonal FD can be broken as FP + PD, both of which are altitude of equilateral is.\\r\\nFP = (\\u221A3a)\\/2\\r\\nFD = \\u221A3 a = shortest diagonal\\r\\nThe question tells us that the shortest diagonal measures 3 cm. \\r\\n\\u221A3 a = 3 => a = \\u221A3\\r\\nRadius of circle = \\u221A3\\r\\nArea of hexagon = (\\u221A3 a2)\\/4 x 6\\r\\nArea of circle \\u2013 area of hexagon = \\u03C0 (\\u221A3)2 \\u2212 \\u221A3\\/4 x (\\u221A3)2 x 6\\r\\n= 3\\u03C0 \\u2212 (9\\u221A3)\\/2\\r\\nArea of shaded region = 1\\/(6 ) (area(circle) \\u2013 area(hexagon))\\r\\n= 1\\/(6 )(3\\u03C0 \\u2212 (9\\u221A3)\\/2)\\r\\n\\r\\n\\r\\n18. Abhishek starts to paint a fence on one day. On the second day, two more friends of Abhishek join him. On the third day 3 more friends of him join him and so on. If the fence is completely painted this way in exactly 20 days, then find the number of days in which 10 girls painting together can paint the fence completely, given that every girl can paint twice as fast as Abhishek and his friends (Boys)? (Assume that the friends of Abhishek are all boys).\\r\\na. 20\\t\\tb. 40\\t\\tc. 45\\t\\td. 77\\r\\n\\r\\nAnswer: D\\r\\n\\r\\nExplanation: \\r\\n Number of men working on first day = 1\\r\\nNumber of men working on second day = 3\\r\\nNumber of men working on second day = 6 and so on..\\r\\nTotal number of boys till the end of the work = [n(n + 1) (n + 2)] \\/ 6\\r\\n= [20 x 21 x 22] \\/ 6 = 1540\\r\\nGiven that every girl paints twice as fast as Abhishek\\u2019s friends.\\r\\nHence, 20 girls work is being done.\\r\\nThus, the number of days taken to paint the fence = 1540\\/20 = 77.\\r\\n\\r\\n19. Six friends decide to share a big cake. Since all of them like the cake, they begin quarrelling as to who gets to first cut and has a piece of the cake. One friend suggests that they blindfold a friend and then choose from a well shuffled set of cards numbered from one to six. You check and find that this method works as it should be simulating a fair throw of a die. You check by performing multiple simultaneous trials of picking the cards blindfolding and throwing a die. You note that the number shown by the method of picking up a card and throwing a real world die, sums up to a number between 2 and 12. Which total would be likely to appear more often 8, 9 or 10?\\r\\na. 8\\tb. 9\\tc. 10\\td. All are equally likely.\\r\\n\\r\\nAnswer: A\\r\\n\\r\\nExplanation: \\r\\n The best solution will be 7, and there will be total 6 cases for this choice (1,6), (2,5), (3,4), (4,3), (5,2), (6,1)but this one is not in the choices so out of the 4 choices given 8 will be the best choice. For this choice there are 5 methods (2,6), (3,5), (4,4), (5,3), (6,2)\\r\\nSimilarly for 9 there are 4 choices (3,6), (4,5), (5,4), (6,3) for 10 there are 3 choices (4,6), (5,5), (4,6)\\r\\nAnswer is 8.\\r\\n\\r\\n20. A research lab in Chennai requires 100 mice and 75 sterilized cages for a certain set of laboratory experiments. To identify the mice, the lab has prepared labels with numbers 1 to 100, by combining tags numbered 0 to 9. The SPCA requires that the tags be made of toxin-free material and that the temperature of the cages be maintained at 27 degree Celsius. Also, not more than 2 mice can be caged together and each cage must be at least 2 sq.ft in area. The 5 experiments to be conducted by lab are to be thoroughly documented and performed only after around of approval by authorities. The approval procedure takes around 48 hours. How many times is, the tag numbered \\u20194\\u2019 used by the lab in numbering these mice?\\r\\na. 9\\t\\tb. 19\\t\\tc. 20 \\t\\td. 21\\r\\n\\r\\nAnswer: C\\r\\n\\r\\nExplanation: \\r\\n Just count the number of 4's from 1 to 100.it will give you 20.\\r\\n\",\n    \"category\": \"651b14e12dee1b6056f732ba\",\n    \"set\": \"NA\",\n    \"section\": \"NA\"\n  }",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

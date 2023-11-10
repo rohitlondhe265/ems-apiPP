@@ -1,0 +1,232 @@
+1. 1/3 of a number is 6 more than 1/6 of that number then what is the number?
+a. 12		b. 36		c. 24		d. 48
+Answer: B
+Explanation: 
+ Let the number be x
+So, x*(1/3) = 6+[x*(1/6)]
+Solving this,
+x=36
+
+2. The pacelength P is the distance between the rear of two consecutive footprints. For men, the formula, n/P = 180 gives an approximate relationship between n and P where, n = number of steps per minute and P = pacelength in meters. Bernard knows his pacelength is 120 cm. The formula applies to Bernard’s walking. Calculate Bernard’s walking speed kmph.
+a. 236.16	b. 8.78	        c. 12.44            d. 15.55
+Answer: D
+Explanation: 
+ n/P = 180 gives an approximate relationship between n and P where, n = number of steps per minute and P = pacelength in meters. Bernard knows his pacelength is 120cm.
+Number of steps in one minute = 180*1.2 
+Distance travelled in 1 minute = 180*1.2*1.2 metres
+Distance travelled in one hr = 180*1.2*1.2*60/1000 km = 15.55 km approx
+
+3. The IT giant Tirnop has recently crossed a head count of 150000 and earnings of $7 billion. As one of the forerunners in the technology front, Tirnop continues to lead the way in products and services in India. At Tirnop, all programmers are equal in every respect. They receive identical salaries and also write code at the same rate. Suppose 24 such programmers take 24 minutes to write 24 lines of code in total. How long will it take 72 programmers to write 72 lines of code in total?
+a. 12		b. 14		c. 6		d. 72
+Answer: B
+Explanation: 
+ Use the equation (men*time)/work
+(p1*t1)/l1= (p2*t2)/l2
+(14*14)/14= (5*t2)/5
+14=t2
+Time taken = 14
+
+4. A sheet of paper has statements numbered from 1 to N. For each value of n from 1 to 40, statement N says "Exactly N of the statements on this sheet is false." Which statements are true and which are false? 
+a. All statements are false
+b. The odd numbered statements are true the even numbered are false
+c. Second last statement is true and the remaining statements are false
+d. The even numbered statements are true and the odd numbered are false
+Answer: C
+Explanation: 
+ For this type of Questions, follow this:
+At least- 1st half are true, last half are false
+Exactly- Last second one is true or (N-1)th Statement is true
+Almost- All are true.
+
+5. Alok and Bhanu play the following min-max game. Given the expression N = 25 + X + Y – Z , where X, Y and Z are variables representing single digits (0 to 9), Alok would like to maximize N while Bhanu would like to minimize it. Towards this end, Alok chooses a single digit number and Bhanu substitutes this for a variable of her choice (X, Y or Z). Alok then chooses the next value and Bhanu, the variable to substitute the value. Finally Alok proposes the value for the remaining variable. Assuming both plays to their optimal strategies, the value of N at the end of the game would be
+a. 43		b. 16		c. 36		d. 34
+Answer: C
+Explanation:
+ For these type of ques, remember dis thumb rule..
+X*Y-Z=18
+X+Y-Z=11
+X-Y-Z=2
+So
+N = 25 + X + Y - Z
+N= 25+11=36
+
+6. A sheet of paper has statements numbered from 1 to 40. For each value of n from 1 to 40, statement n says "At least n of the statements on this sheet are false." Which statements are true and which are false? 
+a. First half of the statements are true and the rest are false
+b. The odd numbered statements are true the even numbered are false
+c. First half of the statements are false and the rest are true
+d. The even numbered statements are true and the odd numbered are false
+Answer: A
+Explanation: 
+ * At least- First half of the statements are true and the rest are false
+* Exactly: First statement is true and rest are false
+* Almost: all the statements are true
+
+7. 10 suspects are rounded by the police and questioned about a bank robbery. Only one of them is guilty. The suspects are made to stand in a line and each person declares that the person next to him on his right is guilty. The rightmost person is not questioned. Which of the following possibilities are true?
+A) All suspects are lying
+B) The leftmost suspect is guilty
+C) Rightmost suspect is guilty
+a. A only		b. A and B
+c. B only 		d. A and C
+Answer: B
+Explanation: 
+ If first is victim then all suspects are lying. Here you should remember that the rightmost person is not questioned.
+If any of the person leaving leftmost is victim then the leftmost suspect is innocent. But "and" should not be used between the conditions because leftmost is not innocent necessarily.
+
+8. One the Planet, Oz, there are 8 days in a week – Sunday to Saturday and another day called Oz day. There are 36 hours in a day and each hours has 90 min while each minute has 60 sec. As on earth, hour hand covers the dial twice every day. Find the approximate angle between the hands of clock on Oz when time is 14.40 am
+
+a. 83		b. 74		c. 129		d. 65
+Answer: C
+Explanation: 
+ Hour hand=> 18hrs=360 deg=> 1hr=20 deg
+                       90mins=20 deg=> 1min=2/9 deg
+Minute hand=> 90mins=360 deg=> 1min=4 deg
+               Angle= (14*20+40*2/9)-40*4
+                        = 280+80(8.8)/9-160                  
+                        = 289-160
+               Angle= 129 deg.
+
+9. It is dark in my bedroom and I want to get two socks of the same colour from my drawer, which contains 26 red and 24 blue and 34 brown socks. How many socks do I have to take from the drawer to get at least two socks of the each colour?
+a. 6		b. 74		c. 61		d. 62
+Answer: D
+Explanation: 
+ Maximum of (red, blue, brown) + 2nd maximum of (red, blue, brown) + 2 
+36 + 24 + 2 = 62.     
+
+10. 66 people {a1, a2,..., a66} meet and shake hands in a circular fashion. In other words, there are totally 36 handshakes involving the pairs, {a1, a2}, {a2, a3}, ..., {a65, a66}, {a66, a1}. Then size of the smallest set of people such that the rest have shaken hands with at least one person in the set is
+a. 22		b. 33		c. 65		d. 11
+Answer: A
+Explanation: 
+ For minimum people in a set we can consider handshakes as {a1, a2, a3}, {a4, a5, a6},
+{a7, a8, a9},…….{ an-2,an-1,an}
+For minimum people, we can consider the set {a2, a5, a8… an-1}.
+So, MINIMUM people in a set = n / 3
+so n/3=66/3=22
+
+11. The IT giant Tirnop has recently crossed a head count of 150000 and earning of $7 billion. As one of the forerunners in the technology front, Tirnop continues to lead the way in products and services in India. At Tirnop, all programmers are equal in every respect. They receive identical salaries and also write code at the same rate Suppose 16 such programmers take 16 minutes to write 16 lines of code in total. How many lines of code can be written by 96 programmers in 96 minutes? The IT giant Tirnop has recently crossed a head count of 150000 and earning of $7 billion. As one of the forerunners in the technology front, Tirnop continues to lead the way in products and services in India. At Tirnop, all programmers are equal in every respect. They receive identical salaries and also write code at the same rate Suppose 16 such programmers take 16 minutes to write 16 lines of code in total. How many lines of code can be written by 96 programmers in 96 minutes?
+a. 16		b. 576		c. 432		d. 96
+Answer: B
+Explanation: 
+ (16 men)*(16 min)/ (16 lines) = (96 men) (96 min)/x (lines) 
+Hence x=576
+
+12. Anoop managed to draw 6 circles of equal radii with their centres on the diagonal of a square such that the two extreme circles touch two sides of the square and each middle circle touches two circles on either side. Find the ratio of the side of the square to the radius of the circles. Assume √2 is 1.4.
+a. 9:1	              b. 6.2: 1          c. 10.4: 1	          d. 7.6: 1
+Answer: C
+Explanation: 
+Let the radius of circle be r
+Let the side of square be a
+Then diagonal of square= a*sqrt(2)
+This diagonal length = 12*r + 2r * sqrt(2)
+(Because the extreme circle's radius is perpendicular to side of square.)
+Thus we get
+12*r+2r*sqrt(2)=a*sqrt(2)
+r (6*sqrt(2)+2)=a
+r/a=1/(6*sqrt(2)+2)
+Thus ratio: r: a = 1 :( 6*sqrt(2)+2)
+ = 1: 10.4
+So, a : r = 10.4 : 1
+
+13. A hare and tortoise a race along a circle of 100 yards diameter. The tortoise goes in one direction and the hare in the other. The hare starts after tortoise has covered 1/5 its distance and that leisurely. The hare and tortoise meet when the hare has covered only 1/4 of the distance. By what factor should the hare increase its speed so as to tie the race?
+a. 8		b. 37		c. 45		d. 6.6
+Answer: D
+Explanation: 
+First distance = 1/x
+Second distance = 1/y
+Let z = xy-x
+Required factor will be = z*(z-y)/x^2
+In this question..
+x=5, y=4
+z=5*4-5=15
+z-y = 15-4 = 11
+Required factor = 15*11/25 =6.6 
+
+14. There are two boxes, one containing 21 red balls and the other containing 25 green balls. You are allowed to move the balls between the boxes so that when you choose a box at random and a ball at random from the chosen box, the probability of getting a red is maximized. This maximum probability is
+a. 0.5		b. 0.63		c. 0.72		d. 0.48
+Answer: C
+Explanation: 
+From the given data,
+1/2*(1+20/45) = 65/90=.72
+The maximum probability=.72
+
+15. Alok and Bhanu play the following min-max game. Given the expression N = 32 + X* (Y – Z), where X, Y and Z are variables representing single digits (0 to 9), Alok would like to maximize N while Bhanu would like to minimize it. Towards this end, Alok chooses a single digit number and Bhanu substitutes this for a variable of her choice (X, Y or Z). Alok then chooses the next value and Bhanu, the variable to substitute the value. Finally Alok proposes the value for the remaining variable. Assuming both play to their optimal strategies, the value of N at the end of the game would be
+a. 113		b. 32		c. -49		d. 50
+Answer: D
+Explanation: 
+For these type of ques, remember dis thumb rule..
+X*Y-Z=18
+X+Y-Z=11
+X-Y-Z=2
+So
+N = 32 + X * Y - Z
+N= 32+18=50
+
+ADVANCE QUANTITATIVE APTITUDE
+16. The citizens of planet nigiet are 6 fingered and have thus developed their decimal system in base 6. A certain street in nigiet contains 1000 (in base 6) buildings numbered 1 to 1000. How many 3s are used in numbering these buildings?
+a. 108		b. 192		c. 54		d. 102
+Answer: A
+Explanation: 
+ In decimal system total no. of 3's from 1 to 1000 are 100*3 = 300
+In base 6, value of 300 = 3*(6^2) + 0*(6^1) + 0*(6^0) = 108.
+
+17. Given 3 lines in the plane such that the points of intersection form a triangle with sides of length 19, 19 and 19, the number of points equidistant from all the 3 lines is
+a. 1		b. 0		c. 4		d. 2
+Answer: C
+Explanation: 
+Ans is 4 because 1 for incentre and other 3 for excentres .So total no of points equidistant from the 3 lines is 4.
+Note:-Every triangle has three excenters and three excircles. The excircle which is tangent to one side of the triangle and the extensions of the other two sides and the centre of the excircle is known as excentre
+
+18. Janta Airline has a free luggage allowance for its passengers. If any passenger carries excess luggage, it is charged at a constant rate per kg. The total luggage charge paid by Ravind Jekriwal and Pranas Shubhan is Rs.1100. If both Ravind and Pranas had carried luggage twice the weight than they actually did, their luggage charges would have been Rs.2000 and Rs.1000 respectively. What was the charge levied on Ravind’s luggage?
+a. Rs.600	b. Rs.800          c. Rs.900	          d. Rs.700
+Answer: B
+Explanation: 
+Let the free luggage allowance be ‘f’ kg. Let the weight of the luggage carried by Ravind be ‘r’ kg and the weight of the luggage carried by Pranas be ‘p’ kg. Thus, the excess luggage weights carried by Ravind and Pranas respectively are (r – f) kg and (p – f) kg. 
+Thus, the total luggage charge for both would be (r – f) k + (p – f) k if k is the charge per kg.
+Thus, (r – f) k + (p – f) k = 1100.
+(r + p – 2f) k = 1100....................... (1)
+If Ravind carried twice the luggage weight he actually did, i.e., if he carried 2r kg, then the excess luggage weight he carried would have been 2r – f and the corresponding charge would have been (2r – f) k.
+Therefore, (2r – f) k = 2000................ (2)
+Likewise, If Pranas carried twice the luggage he actually did i.e., if he carried 2p kg, then the excess luggage he carried would have been 2p –f and the corresponding charge would have been (2p – f) k.
+Therefore, (2p – f) k = 1000................ (3)
+Adding (2) and (3) and simplifying, we get,
+(r + p – f) k = 1500........................ (4)
+Dividing (4) by (1) and simplifying, we get,
+19f = 4r + 4p............................. (5)
+Dividing (2) by (3) and simplifying, we get,
+–f = 2r – 4p............................. (6)
+Solving (5) and (6) for r, we get,
+r = 3f................................... (7)
+Subtracting (1) from (4) and simplifying, we get,
+fk = 400.
+Ravind’s luggage charge = (r – f) k.
+But, according to equation (7), r = 3f. Therefore, Ravind’s luggage charge = 2fk
+But, fk = 400. Therefore, Ravind’s luggage charge = Rs. 800.
+
+19. Consider a class of 40 students whose average weight is 40 kgs. m new students join this class whose average weight is n kgs. If it is known that m + n = 50, what is the maximum possible average weight of the class now?
+a. 40.18 	b. 40.56            c. 40.67              d. 40.49
+Answer: B
+Explanation: 
+ If the overall average weight has to increase after the new people are added, the average weight of the new entrants has to be higher than 40.
+
+So, n > 40
+Consequently, m has to be < 10 (as n + m = 50)
+Working with the “differences” approach, we know that the total additional weight added by “m” students would be (n - 40) each, above the already existing average of 40. m (n - 40) is the total extra additional weight added, which is shared amongst 40 + m students. So, m
+(n – 40) / (m + 40)
+has to be maximum for the overall average to be maximum.
+At this point, use the trial and error approach (or else, go with the answer options) to arrive at the answer.
+The maximum average occurs when m = 5, and n = 45
+And the average is 40 + (45 – 40) * (5 / 45)
+= 40 + (5 / 9)
+= 40.56 kgs
+
+20. Let n! = 1 x 2 x 3 x……….x n for integer n> 1. If p = 1! + (2 x 2!) + (3 x 3!) + …… (10 x 10!), then p+2 when divided by 11! Leaves remainder of
+a. 10		b. 0		c. 7		d. 1
+Answer: D
+Explanation: 
+ If P = 1! = 1
+Then P + 2 = 3, when divided by 2! Remainder will be 1.
+If P = 1! + 2 × 2! = 5
+Then, P + 2 = 7 when divided by 3! Remainder is still 1.
+Hence, P = 1! + (2 × 2!) + (3 × 3!)+ ……+ (10 × 10!)
+Hence, when p + 2 is divided by 11! The remainder is 1.
+
+

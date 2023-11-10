@@ -1,0 +1,212 @@
+1. Fill dirt or fill soil is usually the sub-soil removed from an excavation site and is used to level a place or create artificial mounds. If the average density of sub-soil removed from a site is 3gm/cu cm and it weight 400 kg. How many hemispherical pits each of volume 240 cubic cm, can this sub-soil fill?
+a. 555		b. 277		c. 556		d. 554
+Answer: A
+Explanation: 
+3 gm per cm cube and there are hemispheric pits of capacity 240 cm cube
+So each hemisphere can contain 3*240=720 cm cube soil.
+So total of 400 kg i.e. 400*1000=400000 gms will be held in 400000/720=555.55 so approximately 555.
+
+2. The New York Public library is one of the world’s greatest repositories of books and journals. It has a beautiful reading room facing Manhattan’s famous Fifth Avenue. In the reading rooms are 10 reading spots. Each reading spot consists of a round table with 4 chairs placed around it. There are some readers such that in each occupied reading spot there are different numbers of readers. If in all there are 10 readers, how many reading spots are empty?
+a. None		b. 6		c. 5		d. 4
+Answer: B
+Explanation: 
+1st spot=1 reader
+2nd spot=2 reader
+3rd spot=3 reader
+4th spot=4 reader
+10 readers can occupy 4 spots only. So answer is 6
+
+3. A group of friends Tom, Tim, Dick, Diana, Harry, and Harriet go out to a fair three hundred meters from the McDonalds which is five Km away. They see a weighing machine and decide to have some fun. However the girls refuse to step on the weighing machine. So Tom, Dick and harry, weigh themselves in a particular order. First Tom, Dick, and Harry weigh themselves individually and then tom and Dick, Dick and Harry, Tom and Harry and then Tom, Dick and harry together respectively. The recorded weight for the last measure is 158 kgs. The average of all the 7 measures is
+a. 112.86          b. 52.67        c. 90.29	d. 67.71
+Answer: C
+Explanation:
+Let tom,dick and harry be a, b and c.
+Now there is totally 7 rounds of weight measure.
+First Tom, Dick, and Harry weigh themselves individually and then Tom and Dick, Dick and Harry, Tom and Harry and then Tom, Dick and Harry together respectively. 
+Sum of total 7 rounds written as,
+a+b+c+(a+b)+(b+c)+(c+a)+(a+b+c) = 4(a+b+c)
+4*158=632
+Average of 7 weighing is 632/7=90.29 kg
+
+4. Determine the distance between the x-intercept and the z-intercept of the plane whose equation is 2x+9y-3z=18
+a. 6.32	           b. 10.82	            c. 3	      d. 5
+Answer: B
+Explanation: 
+Putting y=z=0
+x=9
+Putting x=y=0
+z=-6
+Distance=(x^2+z^2) ^0.5=10.82 unit
+
+5. In the year 2002, Britain was reported to have had 4.3m closed-circuit televisions (CCTV) cameras – one for every 14 people in the country. This scrutiny is supposed to deter and detect crime. In one criminal case, the police interrogates two suspects. The ratio between the ages of the suspects is 6:5 and the sum of their ages is 66 years. After how many years will the ratio be 8:7?
+a. 11 years			b.12 years
+c. 6 years			d. 7 years
+Answer: B
+Explanation:
+A/6 =B/5=x;
+A=6x;B=5x;
+A+B=66; ==>    x=6;
+A=36, B=30;
+After X years,((A+X)/(B+X))=(8/7)
+Solve the above eqn, we get X=12.
+
+6. A game is played between 2 players and one player is declared as winner. All the winners from first round, played in the second round. All the winners from second round played in third round and so on. If 8 rounds were played to declare only one player as winner, how many players played in first round?
+a. 256		b. 128		c. 255		d. 127
+Answer: A
+Explanation: 
+8 rounds means 128-64-32-16-8-4-2-1
+So 128 matches were played in first round
+teams= 128*2=256
+
+7.1/3rd of a number is 3 more than the 1/6th of the same number, then find the number?
+a. 24		b. 12		c. 18		d. 20
+Answer: C
+Explanation: 
+Let X is the number.
+(1/3) X-(1/6) X=3,
+Solving these we can get the answer.
+
+8. It is the class with the seating arrangement in 4 rows and 8 columns. When the teacher says ’start’ the girl who is sitting in first row and first column will say 1, then the next girl sitting behind her will say 4, the next girl sitting behind that girl will say 7, in a particular order each girl is telling a number, the following girls told 10, 13 next turn is yours what will you say?
+a. 14		b. 16		c. 20		d. 17
+Answer: B
+Explanation: 
+The series is like.. 1,4,7,10,13.... and so on.
+So the difference between the two consecutive no's in the series is 3. When 13 is already completed, the next no in the series should be 13+3=16.
+
+9. If Valentine’s day of 2005 was celebrated on a Monday. What day is Feb 14th, 2010?
+a. Monday			b. Sunday
+c. Tuesday			d. Wednesday
+Answer: B
+Explanation: 
+ In leap year 2 odd days
+Ordinary year 1 odd days.
+From 2005 to 2010, there is one leap year and 4 ordinary year. So totally 6 odd days.
+So answer is Sunday.
+
+10. If a pipe can fill the tank in 6 hrs but unfortunately there was a leak in the tank due to which it took 30 more minutes .Now if the tank was full how much time will it take to get emptied through the leak?
+a. 39 hrs          b. 78 hrs           c. 72 hrs          d. 70 hrs
+Answer: B
+Explanation: 
+Work done by the leak in 1 hour = [(1/6)-(2/13)]=1/78 hrs.
+Time taken= 78 hrs 
+
+11. Joe counts 48 heads and 134 legs among the chicken and dogs in his farm. How many dogs does he have?
+a. 29		b. 21		c. 18		d. 19
+Answer: D
+Explanation: 
+Let us take the no. of Chickens as C and no. of dogs as D.
+Equation 1: C + D = 48
+Equation 2: 2C + 4D = 134 (2 legs for Chicken and 4 legs for Dogs)
+Solving eqns 1 and 2, we get, D = 19 and C = 29.
+No. of dogs is 19.
+
+12. A family consists of father, mother, two sons and the youngest daughter. The age of first son and daughter are in the ratio 3:1. The mother is 3.5 times as old as the second son. The age of the second son is 2/3 of the age of the first son. The age of the youngest daughter is 5 years. What is the age of the mother?
+a. 40		b. 35		c. 15		d. 25
+Answer: B
+Explanation: 
+Let us take the ages of Father, Mother, First son, Second son and daughter as F, M, S1, S2 and D respectively.
+Given,
+S1: D = 3: 1
+M = 3.5 (S2)
+S2 = 2/3 (S1)
+D = 5
+Now, S1: D = 3: 1 => S1 = 3D => S1 = 3(5) => 15
+So, S1 = 15
+S2 = 2/3 (S1) => S2 = 2/3(15) => 10
+S2 = 10
+M = 3.5 (10) => 35
+Mother's age is 35
+
+13. A bag contains 20 yellow balls, 23 green balls, 27 white balls. How many minimum balls one should pick out so that to make sure he gets at least 2 balls of all colour?
+a. 48		b. 52		c. 60		d. 68
+
+Answer: B
+Explanation: 
+The highest number from one colour ball is 27 (white balls), the second highest is 23 (green)
+So, as a worst case scenario, one should take all 27 and 23 to move to get 2 yellow balls. 
+So, 27 + 23 + 2 = 52
+One should at least take 52 balls to get minimum 2 balls from all colours.
+
+14. A pipe can fill a tank in 3 hrs .Due to a leakage in the tank it takes 3.5 hrs to fill the same tank. Then how many hours will the leakage can empty the tank.
+a. 3.5 hrs			b. 30 hrs
+c. 0.5 hrs			d. 21 hrs
+Answer: D
+Explanation: 
+The electric pump can fill the tank in 3 hrs. Because of the leak it took 3.5 hrs.
+Now, if there is no leak and the electric pump works for 3.5 hrs instead of 3 hrs, 0.5/3 = 1/6 of the tank must have been overflown. But we are unable to see the overflow because this 1/6 is emptied by the leak of course working for 3.5 hrs.
+Hence the leak can empty 1/6 of the tank in 3.5 hours. So it can empty a full tank in 21 hrs.
+
+15. Pointing out to a photograph a man tells his friend, “She is the daughter of the only son of my father’s 
+wife”. How is the girl in photograph related to the man?
+a. Niece				b. Daughter
+c. Mother			d. None of these
+Answer: B
+Explanation: 
+From the given information,
+The Only son of my father's wife is the man
+Daughter of the only son of my father's wife is the man's daughter.
+So, the girl is the daughter of that man.
+
+ADVANCED QUANTITATIVE APTITUDE
+
+16. Mr. X decides to travel from Delhi to Gurgaon at a uniform speed and decides to reach Gurgaon after T hr. After 30 km, there is some engine malfunction and the speed of the car becomes 4/5th of the original speed. So, he travels the rest of the distance at a constant speed 4/5th of the original speed and reaches Gurgaon 45 minutes late. Had the same thing happened after he travelled 48 km, he would have reached only 36 minutes late. What is the distance between Delhi and Gurgaon?
+a. 90 km	b. 120 km	c.20 km	           d. 40 km
+Answer: B
+Explanation: 
+ Let the distance from Delhi to Gurgaon be ‘d’ km. The first 30 km he travels at his usual speed. However, the remaining‘d-30’ km he travels at a reduced speed.
+To travel ‘d’ km he usually takes T hr. Therefore, to travel ‘d - 30’ km he should ideally take (d−30)xT/d hr. However, this is only if he travels at his usual speed. It is given that he travelled only at 4/5th of his usual speed. Because of this he would have taken 5/4th of the time to travel the remaining distance, i.e., he takes 1/4th of the time extra. This is given to be 45 minutes (or 3/4th hr)
+1/4x(d−30)xT/d = 3/4      ........(1)
+On the other hand, had the same thing happened after he travelled 48 km, he would have reached only 36 minutes or 34 hrs late. Hence,
+1/4x(d−48)xT/d = 3/5       ........(2)
+Dividing (1) by (2) and solving for d, we get d = 120 km.
+
+
+
+
+17. What will be the remainder when (1234567890123456789)24 is divided by 2187?
+a. 3		b. 2		c. 1		d. 0
+Answer: D
+Explanation: 
+ 1234567890123456789 can be expressed as (9k) 24.
+1234567890123456789 is divisible by 9.
+2187=37
+(Because sum of the digits is divisible by 9)So it is divisible by 3. Thus the remainder will be zero.
+
+18. Two circles are placed in an equilateral triangle as shown in the figure. What is the ratio of the area of the smaller circle to that of the equilateral triangle?
+
+a. π : 36√3	b. π : 18√3
+c. π : 27√3	d.π : 42√3
+Answer: C
+Explanation: 
+
+
+19. John has chocolates of types A and B in the ratio 3 : 7, while Mike has chocolates of types B and C in the ratio 5 : 4, Ram has chocolates of types C and A in the ratio 3 : 5. If there are more chocolates of type C than of type B, and more of type B than of type A, what is the minimum possible number of chocolates overall?
+a. 78		b. 40		c. 56		d. 72
+Answer: A
+Explanation: 
+Again, big thanks to Mukund Sukumar for excellent solution.
+Let john have 3x chocolates of type A and 7x of type B
+Let Mike have 5y chocolates of type B and 4y of type C
+Let john have 3z chocolates of type C and 5z of type A
+So in total A=3x+5z; B=7x+5y; C=4y+3z
+Since C>B we get solving y<3z-7x —>(1)
+Since B>A we get solving 5y>5z-4x —> (2)
+What gets inferred from above 2 statements is z>=3. So when x=1, z=3, we get only y=1 as choice, for which second condition doesn’t satisfy.
+So, when x=1,z=4, we get y<5 from first condition and when y > 3.2 from second condition. So which gives choice the only y=4.
+Hence x=1,y=4 and z=4 works and is the best possible answer.
+For these values, we get A=23,B=27,C=28.
+Minimum possible number of chocolates overall is 78. 
+
+20. If a three digit number ‘abc’ has 3 factors, how many factors does the 6-digit number ‘abcabc’ have?
+a. 16		b. 24	          c. 16 or 24		d. 20
+Answer: C
+Explanation: 
+‘abc’ has exactly 3 factors, so ‘abc’ should be square of a prime number. (This is an important inference, please remember this).
+Any number of the form paqbrc will have (a + 1) (b + 1) (c + 1) factors, where p, q, r are prime. So, if a number has 3 factors, its prime factorization has to be p2.
+‘abcabc’ = ‘abc’ * 1001 or abc * 7 * 11 * 13 (again, this is a critical idea to remember)
+Now, ‘abc’ has to be square of a prime number. It can be either 121 or 169 (square of either 11 or 13) or it can be the square of some other prime number.
+When abc = 121 or 169, then ‘abcabc’ is of the form p3q1r1 1, which should have 4 * 2 * 2 = 16 factors.
+When ‘abc’ = square of any other prime number (say 172 which is 289), then ‘abcabc’ is of the form p1q1r1s2 , which should have 2 * 2 * 2 * 3 = 24 factors
+So, ‘abcabc’ will have either 16 factors or 24 factors.
+
+

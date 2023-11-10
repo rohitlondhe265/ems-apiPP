@@ -1,0 +1,90 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "blog",
+    "dateExported": "2023-11-01T13:51:48.802Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "e38f81d2-8123-41ed-80f4-11adc8bb8e56",
+            "name": "post",
+            "containerId": "",
+            "created": "2023-09-19T06:21:19.533Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "d5c6ca61-2921-4315-83de-1ba700fb69e7",
+            "name": "faq",
+            "containerId": "",
+            "created": "2023-09-19T06:21:26.782Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "f7f84606-48b6-42b5-ad11-4d991dbcd981",
+            "name": "cat",
+            "containerId": "",
+            "created": "2023-09-19T06:21:32.612Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "109f7141-8c84-4e06-b84d-740013873aec",
+            "colId": "70f767f0-2731-483e-a45f-2982418f53e7",
+            "containerId": "",
+            "name": "test",
+            "url": "http://localhost:8000/api/test/theSlug/?name=rohit&age=20",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-09-19T06:19:44.811Z",
+            "modified": "2023-09-19T08:47:37.972Z",
+            "headers": [
+                {
+                    "name": "X-API-Key",
+                    "value": "your-api-key-2"
+                }
+            ],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "rohit",
+                    "isPath": false
+                },
+                {
+                    "name": "age",
+                    "value": "20",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"msg\": \"hii\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9521b2d2-5162-46f8-a150-097792f1efcc",
+            "colId": "70f767f0-2731-483e-a45f-2982418f53e7",
+            "containerId": "",
+            "name": "mail",
+            "url": "http://localhost:8000/api/send-mail",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-09-20T06:25:44.782Z",
+            "modified": "2023-09-20T07:28:21.321Z",
+            "headers": [
+                {
+                    "name": "X-API-Key",
+                    "value": "your-api-key-2"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"to\": \"rohitlondhe727@gmail.com\",\n  \"subject\": \"Node.js Email Example 2\",\n  \"text\": \"This is the text content of the email.\",\n  \"html\": \"<h1>This is Heading.</h1><p>This is the HTML content of the email.</p>\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,258 @@
+1. The difference between the ages of two of my three grandchildren is 3. My eldest grandchild is three times older than the age of my youngest grandchild and my eldest grandchild’s age is two years more than the ages of my two youngest grandchildren added together. How old is my eldest grandchild?
+a. 12		b. 13		c. 10		d. 15
+
+Answer: D
+
+Explanation: 
+ Youngest be x, then eldest = 3x.
+3x = y + x + 2 => y = 2x -2
+So ages are 3x, 2x-2 and x respectively.
+Now check the options. 10 and 13 are not suitable in place of 3x so on taking 12 for 3x, x=4 so ages are 12,6,4 but this answer is not possible according to the condition- The difference between the ages of two of my three grandchildren is 3
+So take 3x=15, x=5 so ages are 15, 8, 5 and 8-5 =3 so 15 is the correct answer.
+
+2. A greengrocer was selling apple at a penny each, chickoos at 2 for a penny and peanuts at 3 for a penny. A father spent 7 pennies and got the same amount of each type of fruit for each of his three children. What did each child get?
+a. 1 apple, 2 chickoos, 2 peanuts
+b. 1 apple, 2 chickoos, 1 peanut
+c. 1 apple, 3 chickoos, 2 peanuts
+d. 1 apple, 1 chickoo, 1 peanut
+
+Answer: B
+
+Explanation: 
+ 1 apple costs 1 penny ===> 3 apples for 3 pennies,
+2 chickoos cost one penny ===> 3 kids * 2 chickoos each for 3 pennies
+3 peanuts cost one penny ===> 3 peanuts from the balance penny
+Spending 7 pennies and giving each child 1 apple, 2 chickoos and 1 peanut each.
+
+3. The IT giant Tirnop has recently crossed a head count of 150000 and earnings of $7 billion. As one of the forerunners in the technology front, Tirnop continues to lead the way in products and services in India. At Tirnop, all programmers are equal in every respect. They receive identical salaries and also write code at the same rate. Suppose 12 such programmers take 12 minutes to write 12 lines of code in total. How long will it take 72 programmers to write 72 lines of code in total?
+a. 12		b. 18		c. 6		d. 72
+
+Answer: A
+
+Explanation: 
+ Use the eqn (men*time)/work
+(p1*t1)/l1=(p2*t2)/l2
+(12*12)/14=(72*t2)/72
+12=t2
+Time taken = 12
+
+4. One day Rapunzel meets Dwarf and Byte in the Forest of forgetfulness. She knows that Dwarf lies on Mondays, Tuesdays and Wednesdays, and tells the truth on the other days of the week. Byte, on the other hand, lies on Thursdays, Fridays and Saturdays, but tells the truth on the other days of the week. Now they make the following statements to Rapunzel - Dwarf: Yesterday was one of those days when I lie. Byte: Yesterday was one of those days when I lie too. What day is it?
+a. Monday			b. Sunday
+c. Thursday			d. Saturday
+
+Answer: C
+
+Explanation: 
+ Answer is Thursday
+As the condition says that the dwarf lie on Monday, Tuesday & Wednesday so they will speak truth that they lied on Thursday also on the other side the bytes speak lie on Thursday and will tell that they spoke lie on Wednesday. So the day has to be Thursday as no other option satisfies the condition also.
+
+5. A sheet of paper has statements numbered from 1 to 40. For each value of n from 1 to 40, statement n says "At least n of the statements on this sheet are true." Which statements are true and which are false?
+a. The even numbered statements are true and the odd numbered are false.
+b. The first 26 statements are false and the rest are true.
+c. The first 13 statements are true and the rest are false.
+d. The odd numbered statements are true and the even numbered are false.
+
+Answer: C
+
+Explanation: 
+ "The first 13 statements are true and the rest are false." is the correct answer.
+All others do not satisfy the rule and contradict itself. 
+
+6. 10 suspects are rounded by the police and questioned about a bank robbery. Only one of them is guilty. The suspects are made to stand in a line and each person declares that the person next to him on his right is guilty. The rightmost person is not questioned. Which of the following possibilities are true?
+a. (I) All suspects are lying or the leftmost suspect is innocent.
+b. (II) All suspects are lying and the leftmost suspect is innocent
+c. Both (I) and (II)
+d. Neither (I) nor (II)
+
+Answer: A
+
+Explanation: 
+ "All suspects are lying" means the leftmost is guilty.
+"All suspects are lying or the leftmost suspect is innocent." is true because, it is either leftmost is guilty or innocent.
+”All suspects are lying and the leftmost suspect is innocent" has "and" in it, so, the statement becomes contradictory and so cannot be true.
+
+7. The citizens of planet nigiet are 8 fingered and have thus developed their decimal system in base 8. A certain street in nigiet contains 1000 (in base 8) buildings numbered 1 to 1000. How many 3s are used in numbering these buildings?
+a. 75		b. 64		c. 192		d. 102
+
+Answer: C
+
+Explanation: 
+ There will be 20 3s in between 1 to 100
+Similarly, 20 3s in between 200 to 300 but (100+20) in between 300 to 400  (because at unit place 19 3s and 10's place 1 and 100 3s at 100's place ) and 20 3s in between 400 to 500
+20 3s in between 500 to 600
+20 3s in between 600 to 700
+20 3s in between 700 to 800
+20 3s in between 800 to 900
+20 3s in between 900 to 1000
+So total number of 3s will be 180+19+1+100 = 300
+This count is in decimal but in question base value is 8 so we need to convert (300)8 = 192
+
+8. On planet zorba, a solar blast has melted the ice caps on its equator. 8 years after the ice melts, tiny plantoids called echina start growing on the rocks. Echina grows in the form of a circle and the relationship between the diameter of this circle and the age of echina is given by the formula d = 4 * √ (t - 8) for t ≥ 8 where d represents the diameter in mm and t the number of years since the solar blast. Jagan recorded the radius of some echina at a particular spot as 8mm. How many years back did the solar blast occur?
+a. 8		b. 12		c. 16		d. 24
+
+Answer: C
+
+Explanation: 
+ t=24
+D = 4*sqrt(24 - 8)
+D = 4*sqrt(16)
+D = 4*4
+D = 16
+
+9. A circular dartboard of radius 1 foot is at a distance of 20 feet from you. You throw a dart at it and it hits the dartboard at some point Q in the circle. What is the probability that Q is closer to the centre of the circle than the periphery?
+a. 1/3		b. ½		c. ¾		d. 1/4
+
+Answer: D
+
+Explanation: 
+ 0.25.
+Total area of board = Pi*1^2= Pi
+Preferred are =Pi (1/2)^2= Pi/4
+So prob = (pi/4)/pi =1/4= 0.25
+
+10. After the typist writes 12 letters and addresses 12 envelopes, she inserts the letters randomly into the envelopes (1 letter per envelope). What is the probability that exactly 1 letter is inserted in an improper envelope?
+a. 11/12                b. 0	              c. 1/12	                d. 1/6
+
+Answer: B
+
+Explanation: 
+ If one letter is in wrong envelope, one other letter must also be in wrong envelope. So zero is the probability that exactly 1 letter is inserted in an improper envelope.
+
+11. Alok is attending a workshop "How to do more with less" and today’s theme is working with fewer digits. The speakers discuss how a lot of miraculous mathematics can be achieved if mankind (as well as womankind) had only worked with fewer digits. The problem posed at the end of the workshop is How many 5 digit numbers can be formed using the digits 1, 2, 3, 4, 5 (but with repetition) that are divisible by 4?Can you help Alok find the answer?
+a. 375	        b. 625	    c.500	                    d. 3125
+
+Answer: B
+
+Explanation: 
+ For a number to be divisible by 4,we must check that the last two digits should be divisible by 4.
+The combinations of digits formed by 1,2,3,4,5 which are divisible by 4 are (1,2),(2,4),(3,2)(4,4),(5,2)
+So out of these 5 pairs we must select 1 pair for the number to be divisible by 4.
+So probability is 5C1 =5
+Now we have to select the first 3 digits in a number. They can be any digits i.e. (1, 2, 3, 4, 5) because repetition is allowed 
+Number of possibilities for 1st place =5
+Number of possibilities for 2nd place =5
+Number of possibilities for 3rd place =5
+So total possibilities at 1st, 2nd, 3rd place =5^3
+Total probability is=5^3+5C1 = 5^4= 625.
+
+12.Given 3 lines in the plane such that the points of intersection form a triangle with sides of length 20, 20 and 30, the number of points equidistant from all the 3 lines is
+a. 1		b. 0		c. 4		d. 2
+
+Answer: C
+
+Explanation:
+ There are 4 such points. One point is the incenter of the triangle.3 is the excenters with respect to each angle of the triangle. In the picture given below, I is the incenter and JA, JB, JC are excenters.
+
+   
+13. The pacelength P is the distance between the rear of two consecutive footprints. For men, the formula, n/P = 144 gives an approximate relationship between n and P where, n = number of steps per minute and P = pacelength in meters. Bernard knows his pacelength is 164cm. The formula applies to Bernard’s walking. Calculate Bernard’s walking speed kmph.
+a. 236.16	b. 11.39	c. 8.78	           d. 23.24
+
+Answer: D
+
+Explanation: 
+ n/P = 144 gives an approximate relationship between n and P where, n = number of steps per minute and P = pacelength in meters. Bernard knows his pacelength is 164cm.
+Number of steps in one minute = 144*1.64 
+Distance travelled in 1 minute = 144*1.64*1.64 metres
+Distance travelled in one hr = 144*1.64*1.64*60/1000 km = 23.24 km approx
+
+14. Alice and Bob play the following coins-on-a-stack game. 20 coins are stacked one above the other. One of them is a special (gold) coin and the rest are ordinary coins. The goal is to bring the gold coin to the top by repeatedly moving the topmost coin to another position in the stack. Alice starts and the players take turns. A turn consists of moving the coin on the top to a position i below the top coin (0 ≤ i ≤ 20). We will call this an i-move (thus a 0-move implies doing nothing). The proviso is that an i-move cannot be repeated; for example once a player makes a 2-move, on subsequent turns neither player can make a 2-move. If the gold coin happens to be on top when it’s a player’s turn then the player wins the game. Initially, the gold coinis the third coin from the top. Then
+a. In order to win, Alice’s first move should be a 0-move.
+b. In order to win, Alice’s first move should be a 1-move.
+c. Alice has no winning strategy
+d. In order to win, Alice’s first move can be a 0-move or a 1-move
+
+Answer: B
+
+Explanation: 
+ In order to win, Alice's first move should be a 1-move.Because there are two possibilities after 1- move by Alice:-
+1. When bob takes 0-move, then the coin config is same. But now Alice can neither take 1-move nor 0-move, so she has to take 2 or greater move (let it be 2 moves).Now we have only one coin above the gold coin. Bob can neither take 1-move nor 0-move nor 2-moves. So she has to take 3 or greater move. At the move greater than 2-move brings gold coin on top that makes Alice win.
+2. Now bob takes 2-move after Alice’s first move. Now there is only one coin above the gold coin. So Alice takes 0-move.Now we have only one coin above the gold coin. Bob can neither take 1-move nor 0-move nor 2-move. So she has to take 3 or greater move.
+But the move greater then 2-move brings gold coin on top that makes Alice win.
+
+15. For the FIFA world cup, Paul the octopus has been predicting the winner of each match with amazing success. It is rumoured that in a match between 2 teams A and B, Paul picks A with the same probability as A’s chances of winning. Let’s assume such rumours to be true and that in a match between Ghana and Bolivia, Ghana the stronger team has a probability of 2/3 of winning the game. What is the probability that Paul will correctly pick the winner of the Ghana- Bolivia game?
+a. 5/9		b. 1/9		c. 2/3		d. 1/3
+
+Answer: A
+
+Explanation: 
+ Paul picks A with the same probability as A’s chances of winning.
+Chance of A winning = 2/3
+Prediction of octopus is also = 2/3 (given in question)
+Chance of B winning = 1/3
+Octopus prediction = 1/3
+So probability of picking a winner = (prob picking of Ghana * Ghana winning + prob picking of Bolivia * Bolivia winning)
+= (2/3)*(2/3) +(1/3)*(1/3) = 5/9.
+
+ADVANCE QUANTITATIVE APTITUDE
+16. Alok and Bhanu play the following min-max game. Given the expression N = 9 + X + Y – Z, where X, Y and Z are variables representing single digits (0 to 9), Alok would like to maximize N while Bhanu would like to minimize it. Towards this end, Alok chooses a single digit number and Bhanu substitutes this for a variable of her choice (X, Y or Z). Alok then chooses the next value and Bhanu, the variable to substitute the value. Finally Alok proposes the value for the remaining variable. Assuming both play to their optimal strategies, the value of N at the end of the game would be
+a. 20		b. 18		c. 27		d. 0
+
+Answer: B
+
+Explanation: 
+ Actually only Alok chooses numbers. 
+So he wants to maximize the numbers.
+Since there are two positive and one negative sign, he will definitely choose 9 so as to get the maximum value.
+Since maximum of x+y-z can be obtained only from that way
+So 9+9+9-9 = 18.
+
+17. Two bikers Rohan and Ajay are practicing with two different sports bike; Yamaha and Honda, on the circular racing track, for the bike racing tournament to be held next month. Both Rohan and Ajay start from the same point on the circular track. Rohan completes one round of the track in 1 min and Ajay takes 2 min to complete a round. While Rohan maintains speed for all the rounds, Ajay halves his speed after the completion of each round. How many times Rohan and Ajay will meet between 4th round and 7th round of Sunil (4th and 7th round is excluded)? Assume that the speed of Sunil remains steady throughout each round and changes only after the completion of that round.
+
+a. 47		b. 94		c. 60		d. 120
+
+Answer: B
+
+Explanation: 
+ Time taken by Ajay for 1st round = 2 min
+2nd round = 4minutes
+3rd round = 8 minutes
+4th round = 16 minutes
+5th round = 32 minutes
+6th round = 64 min   Rohan tales one minute for every round.
+He meets 31 times in 5th and 63 times in 6th round
+Total meet = 31 + 63 = 94.
+
+18. Events A, B, C are mutually exclusive events such that: The set of possible values of x are in the interval
+a. 1/3, ½			b. 1/3, 2/3
+c. 1/3, 13/3			d. 0,1
+
+Answer: A
+
+Explanation: 
+
+ 
+19. The ratio of a two-digit natural number to a number formed by reversing its digits is 4: 7. Which of the following is the sum of all the numbers of all such pairs?
+a. 99		b. 198		c. 330		d. 132
+
+Answer: C
+
+Explanation: 
+ Let the two digit number be 10a + b and the number formed by reversing its digits be 10b + a.
+10a + b/10b + a= 4/7
+70a + 7b = 40b + 4a
+66a = 33b
+Therefore, 
+a/b= 1/2
+So, let us list down all possible values for a and b.
+a b Number Reversed Number
+1 2 12 21
+2 4 24 42
+3 6 36 63
+4 8 48 84
+Hence, the sum of all the numbers would be, 
+12 + 21 + 24 + 42 + 36 + 63 + 48 + 84 = 330.
+
+20. When 40! Is expressed in base 8 form, what is the last non–zero digit in the base 8 expansion?
+a. 2		b. 6	        c. 4		d. 2 or 6
+
+Answer: C
+
+Explanation: 
+ We need to find the largest power of 8 that divides 40!. 
+We need to find the largest power of 2 that divides 40! 
+This is given by (40/2) and then successive division by 2. = 20 + 10 + 5 + 2 + 1 = 38 
+So, 238 divide 40! Or, (23)12 × 22 divides 40!
+(23)12 divides the number or the base 8 representation ends with 12 zeroes. Now, the base 8 representation of this number will be some (abcd…n)8 × (1000000000000)8. Now, (abcd…n)8 does not end in 0 and is a multiple of 22. The last digit has to be 4. 
+The last non–zero digit is 4.
+
+
