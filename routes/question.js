@@ -8,7 +8,7 @@ router.post('/', addQuestion);
 router.post('/bulk', addQuestions);
 
 // Get questions by CategoryID and set, section
-router.get('/:categoryId', getQuestionsByCat)
+router.get('/category/:categoryId', getQuestionsByCat)
 
 // Get all questions
 router.get('/', getQuestions);
