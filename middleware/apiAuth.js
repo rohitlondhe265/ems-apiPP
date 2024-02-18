@@ -4,7 +4,6 @@ const adminMethods = ["POST", "PUT", "DELETE", "PATCH"];
 export const authenticateAPIKey = (req, res, next) => {
   const apiKey = req.header("X-API-Key");
   const method = req.method;
-  console.log({ apiKey, method });
   if (adminMethods.includes(method)) {
     if (!apiKey || !validApiKeys.includes(apiKey)) {
       return res.status(401).json({ message: "Unauthorized" });
