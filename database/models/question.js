@@ -11,7 +11,6 @@ const questionSchema = new mongoose.Schema({
   options: [String],
   answer: String,
   explanation: String,
-  optionImages: [String],
 });
 
 const Question =
